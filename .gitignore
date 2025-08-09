@@ -1,0 +1,56 @@
+# Build artifacts
+*.o
+*.exe
+matrix_mult
+matrix_mult_*
+build/
+*.a
+*.so
+*.dll
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test results and logs
+performance_report.txt
+performance_data.csv
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Profiling data
+gmon.out
+*.gcov
+*.gcda
+*.gcno
+
+# Package manager files
+*.pkg
+*.deb
+*.rpm
+
+# Backup files
+*.bak
+*.backup
+*~
